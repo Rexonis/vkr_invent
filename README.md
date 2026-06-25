@@ -100,6 +100,12 @@ Frontend проксирует API-запросы на Django:
 http://vkrinvent:5500
 ```
 
+Для восстановления необходимых зависимостей используйте команду:
+```powershell
+cd frontend
+npm install
+```
+
 ## Проверка
 
 Backend:

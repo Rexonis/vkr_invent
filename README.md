@@ -25,7 +25,7 @@ PostgreSQL 18 работает на порту `5433`.
 ```env
 DJANGO_SECRET_KEY=change-me
 DJANGO_DEBUG=1
-DJANGO_ALLOWED_HOSTS=127.0.0.1,localhost,192.168.157.249,vkrinvent
+DJANGO_ALLOWED_HOSTS=127.0.0.1,localhost
 
 DB_NAME=vkr_inventory
 DB_USER=postgres

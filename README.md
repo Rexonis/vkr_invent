@@ -16,7 +16,7 @@ requirements.txt
 
 ## PostgreSQL
 
-На этой машине PostgreSQL 18 работает на порту `5433`. Порт `5432` занят PostgreSQL 17.
+PostgreSQL 18 работает на порту `5433`.
 
 Создайте базу данных `vkr_inventory` через pgAdmin или `psql`.
 
@@ -57,13 +57,6 @@ python manage.py runserver 0.0.0.0:5500
 ```powershell
 cd C:\Users\admin\Desktop\VKR\backend
 ..\.venv\Scripts\python.exe manage.py runserver 0.0.0.0:5500
-```
-
-После `seed_demo` будет создан тестовый администратор:
-
-```text
-login: admin
-password: admin123
 ```
 
 ## Запуск frontend
